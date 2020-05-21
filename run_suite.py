@@ -20,4 +20,5 @@ with open(report_name, 'wb') as f:
     # 使用runner运行测试套件
     runner.run(suite)
 
-print("测试增加一行代码后,会不会触发轮巡构建")
+print("测试增加一行代码后,会不会触发轮巡构建2")
+print("---" * 10)
