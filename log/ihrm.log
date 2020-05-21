@@ -1,0 +1,16 @@
+2020-05-21 11:11:24,967 INFO [root] [__init__.py(<module>:8)] - 测试日志是否会打印!
+2020-05-21 11:11:25,212 INFO [root] [test_ihrm_login.py(test01_login_success:47)] - 登录的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '0d574864-01c6-4483-9a42-bc0a1dbe6d7c'}
+2020-05-21 11:11:25,415 INFO [root] [test_ihrm_login.py(test02_mobile_is_not_exist:67)] - 登录的结果为: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-05-21 11:11:25,621 INFO [root] [test_ihrm_login.py(test03_password_is_error:81)] - 登录的结果为: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-05-21 11:11:25,927 INFO [root] [test_ihrm_login.py(test04_mobile_is_empty:96)] - 登录的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '47666572-5d13-4014-aeb7-5d4c6978f88d'}
+2020-05-21 11:11:26,129 INFO [root] [test_ihrm_login.py(test05_pssword_is_empty:110)] - 登录的结果为: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-05-21 11:11:26,270 INFO [root] [test_ihrm_login.py(test06_mobile_has_special_char:124)] - 登录的结果为: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-05-21 11:11:26,439 INFO [root] [test_ihrm_login.py(test07_more_params:138)] - 登录的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': '68fac351-f1ce-44b1-8763-4072da981202'}
+2020-05-21 11:11:26,642 INFO [root] [test_ihrm_login.py(test08_less_mobile:152)] - 登录的结果为: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-05-21 11:11:26,747 INFO [root] [test_ihrm_login.py(test09_less_password:166)] - 登录的结果为: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-05-21 11:11:26,855 INFO [root] [test_ihrm_login.py(test10_none_params:180)] - 登录的结果为: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-05-21 11:11:26,929 INFO [root] [test_ihrm_login.py(test11_error_params:194)] - 登录的结果为: {'success': False, 'code': 20001, 'message': '用户名或密码错误', 'data': None}
+2020-05-21 11:11:27,004 INFO [root] [test_ihrm_login.py(test12_password_is_error:208)] - 登录的结果为: {'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
+2020-05-21 11:11:27,082 INFO [root] [test_ihrm_employee_params.py(test01_login:25)] - 登录的结果为：{'success': True, 'code': 10000, 'message': '操作成功！', 'data': '1772b327-c31d-4f06-af9b-a7cedffb3a83'}
+2020-05-21 11:11:27,082 INFO [root] [test_ihrm_employee_params.py(test01_login:32)] - 请求头中令牌：{'Content-Type': 'application/json', 'Authorization': 'Bearer 1772b327-c31d-4f06-af9b-a7cedffb3a83'}
+2020-05-21 11:11:27,164 INFO [root] [test_ihrm_employee_params.py(test02_add_emp:43)] - 添加员工的结果为:{'success': False, 'code': 99999, 'message': '抱歉，系统繁忙，请稍后重试！', 'data': None}
